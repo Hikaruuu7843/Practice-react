@@ -38,56 +38,31 @@ const Menu = () => {
         <div style={{ width: '20vh', textAlign: 'center', paddingTop: '10px' }}>
           <label style={{ color: 'white' }}>Burgers</label>
           <ul className="menu-content">
-            <Menucontent text="First Burger" />
-            <Menucontent text="Second Burger" />
-            <Menucontent text="Third Burger" />
-            <Menucontent text="Fourth Burger" />
-            <Menucontent text="Fifth Burger" />
-            <Menucontent text="Sixth Burger" />
+            <Menucontent />
           </ul>
         </div>
         <div style={{ width: '20vh', textAlign: 'center', paddingTop: '10px' }}>
           <label style={{ color: 'white' }}>Burgers</label>
           <ul className="menu-content">
-            <Menucontent text="First Burger" />
-            <Menucontent text="Second Burger" />
-            <Menucontent text="Third Burger" />
-            <Menucontent text="Fourth Burger" />
-            <Menucontent text="Fifth Burger" />
-            <Menucontent text="Sixth Burger" />
+            <Menucontent />
           </ul>
         </div>
         <div style={{ width: '20vh', textAlign: 'center', paddingTop: '10px' }}>
           <label style={{ color: 'white' }}>Burgers</label>
           <ul className="menu-content">
-            <Menucontent text="First Burger" />
-            <Menucontent text="Second Burger" />
-            <Menucontent text="Third Burger" />
-            <Menucontent text="Fourth Burger" />
-            <Menucontent text="Fifth Burger" />
-            <Menucontent text="Sixth Burger" />
+            <Menucontent />
           </ul>
         </div>
         <div style={{ width: '20vh', textAlign: 'center', paddingTop: '10px' }}>
           <label style={{ color: 'white' }}>Burgers</label>
           <ul className="menu-content">
-            <Menucontent text="First Burger" />
-            <Menucontent text="Second Burger" />
-            <Menucontent text="Third Burger" />
-            <Menucontent text="Fourth Burger" />
-            <Menucontent text="Fifth Burger" />
-            <Menucontent text="Sixth Burger" />
+            <Menucontent />
           </ul>
         </div>
         <div style={{ width: '20vh', textAlign: 'center', paddingTop: '10px' }}>
           <label style={{ color: 'white' }}>Burgers</label>
           <ul className="menu-content">
-            <Menucontent text="First Burger" />
-            <Menucontent text="Second Burger" />
-            <Menucontent text="Third Burger" />
-            <Menucontent text="Fourth Burger" />
-            <Menucontent text="Fifth Burger" />
-            <Menucontent text="Sixth Burger" />
+            <Menucontent />
           </ul>
         </div>
       </section>
