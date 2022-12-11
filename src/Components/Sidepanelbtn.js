@@ -2,7 +2,7 @@ import React from 'react';
 import { FaTimesCircle, FaCartPlus } from 'react-icons/fa';
 import { useState } from 'react';
 import Sidepanel from './Sidepanel';
-
+import Menu from './Menu';
 const Sidepanelbtn = () => {
   var [show, setShow] = useState(false);
   const style = {
@@ -30,6 +30,11 @@ const Sidepanelbtn = () => {
       )}
       <div className={show ? 'sidepanel active' : 'sidepanel'}>
         <Sidepanel />
+      </div>
+      <div>
+        <li>
+          <Menu display={show} showDisplay={setShow} />
+        </li>
       </div>
     </>
   );

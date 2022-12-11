@@ -30,9 +30,12 @@ const Menucontent = ({ text }) => {
   ];
   return (
     <>
-      {menus.map((menu) => (
-        <li>{menu.label}</li>
-      ))}
+      <div>
+        {menus.map((menu) => (
+          <li>{menu.label}</li>
+        ))}
+      </div>
+      <section></section>
     </>
   );
 };

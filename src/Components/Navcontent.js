@@ -1,6 +1,5 @@
 import React from 'react';
 import Sidepanelbtn from './Sidepanelbtn';
-import Menu from './Menu';
 import Navleft from './Navleft';
 import Navright from './Navright';
 import Loginbtn from './Loginbtn';
@@ -34,7 +33,6 @@ const Navcontent = () => {
       <div className="left" style={lStyle}>
         <ul className="left-ul">
           <Sidepanelbtn />
-          <Navleft text={<Menu />} />
           <Navleft text="Offers" />
           <Navleft text="Restaurants" />
           <Navleft text="Careers" />

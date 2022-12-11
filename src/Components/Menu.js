@@ -2,11 +2,12 @@ import React from 'react';
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import Menucontent from './Menucontent';
-const Menu = () => {
+const Menu = ({ display, showDisplay }) => {
   var [show, setShow] = useState(false);
   const menuHover = (e) => {
     setShow(show == false ? (show = true) : (show = true));
     e.target.style.color = 'rgb(136, 53, 26)';
+    showDisplay(display == true ? (display = false) : (display = false));
   };
   const menuOut = (e) => {
     setShow(show == true ? (show = false) : (show = false));
