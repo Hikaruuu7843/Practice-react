@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@200;400&family=Fredoka:wght@300;400&family=Lato:wght@300;400&family=Oldenburg&display=swap');
+@import url('https://fonts.cdnfonts.com/css/flame-3');
+* {
+  margin: 0;
+  padding: 0;
+}
+body,
+html {
+  box-sizing: border-box;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(245, 235, 220);
+}
+:root {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.nav {
+  height: 100%;
+  width: 100%;
+}
+.left-ul,
+.right-ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+li {
+  list-style-type: none;
+  font-family: 'insaniburger';
+  -webkit-font-smoothing: antialiased;
+  text-rendering: auto;
+  color: rgb(80, 35, 20);
+}
+.sidepanel.active {
+  width: 53vh;
+  height: 88vh;
+  border: 1px solid black;
+  position: absolute;
+  left: -1px;
+  top: 12vh;
+  transition: all 0.2s ease;
+  z-index: 1;
+}
+.sidepanel {
+  width: 53vh;
+  height: 88vh;
+  border: 1px solid black;
+  position: absolute;
+  left: -100%;
+  top: 12vh;
+  transition: all 0.4s ease;
+  z-index: 1;
+}
+.featured {
+  width: 100%;
+  margin-top: 13vh;
+  position: absolute;
+  z-index: 0;
+  background-color: transparent;
+}
+.content-images img {
+  width: 150vh;
+  height: 100%;
+}
+.content-images {
+  display: flex;
+  justify-content: space-evenly;
+  width: 158vh;
+  height: 58vh;
+  background-color: transparent;
+  margin: auto;
+}
+.arrow:active {
+  transform: scale(1.05);
+}
+.section {
+  display: none;
+  opacity: 0;
+}
+.section.active {
+  background-color: rgb(80, 35, 20);
+  position: absolute;
+  top: 12vh;
+  width: 100vh;
+  height: 28vh;
+  display: flex;
+  justify-content: space-evenly;
+  opacity: 1;
+  border-radius: 2px;
+}
+.menu-content {
+  display: block;
+  width: 20vh;
+  background-color: transparent;
+  height: 25vh;
+}
+.menu-content li {
+  margin-top: 5px;
+  font-family: 'Flame', sans-serif;
+  font-size: 12px;
+  color: #fff;
+  line-height: 20px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  text-decoration: none solid rgb(85, 85, 85);
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-align: center;
+}
+.menu-content li:hover {
+  background-color: #fff;
+  color: rgb(80, 35, 20);
+}
+.login-btn::before {
+  content: '\f007';
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 700;
+  position: relative;
+  font-size: 0.8em;
+  left: -5px;
+  top: -2px;
+}
