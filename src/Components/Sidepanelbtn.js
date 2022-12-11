@@ -8,6 +8,8 @@ const Sidepanelbtn = () => {
   const style = {
     marginTop: '-5px',
     cursor: 'pointer',
+    color: 'rgb(80, 35, 20)',
+    
   };
   const onclick = () => {
     setShow((e) => {

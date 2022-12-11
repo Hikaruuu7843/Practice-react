@@ -20,6 +20,7 @@ const Menu = ({ display, showDisplay }) => {
   const selectOut = (e) => {
     setShow(show == true ? (show = false) : (show = false));
   };
+
   return (
     <>
       <div>

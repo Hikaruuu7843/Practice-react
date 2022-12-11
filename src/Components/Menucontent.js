@@ -28,6 +28,14 @@ const Menucontent = ({ text }) => {
       label: 'Sixth Burger',
     },
   ];
+  const style = {
+    width: '95vh',
+    height: '50vh',
+    backgroundColor: 'red',
+    position: 'absolute',
+    top: '27vh',
+    left: '54vh',
+  };
   return (
     <>
       <div>
@@ -35,7 +43,11 @@ const Menucontent = ({ text }) => {
           <li>{menu.label}</li>
         ))}
       </div>
-      <section></section>
+      <section style={style}>
+        <div>
+          <h3>Test</h3>
+        </div>
+      </section>
     </>
   );
 };

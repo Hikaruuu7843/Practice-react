@@ -36,6 +36,7 @@ const Navcontent = () => {
           <Navleft text="Offers" />
           <Navleft text="Restaurants" />
           <Navleft text="Careers" />
+          <Navright text="More" />
         </ul>
       </div>
 
@@ -49,7 +50,6 @@ const Navcontent = () => {
 
       <div className="right" style={rStyle}>
         <ul className="right-ul">
-          <Navright text="More" />
           <Navright text="For item availability" />
           <Navright text="Choose your location" />
           <Loginbtn />
