@@ -2,7 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import Menucontent from './Menucontent';
-const Menu = ({ display, showDisplay }) => {
+const Menu = ({ display, showDisplay, menus }) => {
   var [show, setShow] = useState(false);
   const menuHover = (e) => {
     setShow(show == false ? (show = true) : (show = true));
@@ -20,7 +20,14 @@ const Menu = ({ display, showDisplay }) => {
   const selectOut = (e) => {
     setShow(show == true ? (show = false) : (show = false));
   };
-
+  const style = {
+    width: '95vh',
+    height: '50vh',
+    backgroundColor: 'red',
+    position: 'absolute',
+    top: '27vh',
+    left: '54vh',
+  };
   return (
     <>
       <div>
@@ -66,6 +73,11 @@ const Menu = ({ display, showDisplay }) => {
           <ul className="menu-content">
             <Menucontent />
           </ul>
+        </div>
+      </section>
+      <section style={style}>
+        <div>
+          <h3></h3>
         </div>
       </section>
     </>
